@@ -10,19 +10,24 @@ Instalar os seguintes programas da central
 
 ### GIT ###
 
+```bash
 $ sudo apt-get update
 $ sudo apt-get install git
+```
 
+```bash
 $ git config --global user.name "Your Name"
-$ git config --global user.email "youremail@domain.com"
-
+$ git config --global user.email "your.email@domain.com"
+```
 
 [Tutorial provido pelo GitHub][git-ref]
 
 ### SSH keygen ###
 
-$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```bash
+$ ssh-keygen -t rsa -b 4096 -C "your.email@domain.com"
 $ ssh-add ~/.ssh/id_rsa
+```
 
 
 [Tutorial provido pelo GitHub][ssh-keygen]
@@ -30,59 +35,75 @@ $ ssh-add ~/.ssh/id_rsa
 
 ### File Compare ###
 
+```bash
 $ sudo apt-get install meld
+```
 
 ## Linguagens ##
 
 ### Java ###
 
+```bash
 $ sudo apt-get install python-software-properties
 $ sudo add-apt-repository ppa:webupd8team/java
 $ sudo apt-get update
 $ sudo apt-get install oracle-java8-installer
-
+```
 
 #### JDK ####
 
 #### Maven ####
 
+```bash
 $ sudo apt-get install maven
+```
 
 [Tutorial][maven]
 
 ### Node ###
 
-
+```bash
 $ sudo apt-get install nodejs
+```
 
 [Tutorial][nodejs-ref]
 
 
 #### NPM ####
 
+```bash
 $ sudo apt-get install npm
+```
 
 #### Bower ####
 
+```bash
 $ npm install -g bower
+```
 
 [Tutorial][bower-ref]
 
 ### Gulp ###
 
+```bash
 $ npm install -g gulp-cli
+```
 
 ### Stylus-lang ###
 
+```bash
 $ npm install -g stylus
+```
 
 ## IDE's ##
 
 ### Sublime Text 3 ###
 
+```bash
 $ sudo add-apt-repository ppa:webupd8team/sublime-text-3
 $ sudo apt-get update
 $ sudo apt-get install sublime-text-installer
+```
 
 Instalar Package Control [veja aqui][sublime-package-control]
 
